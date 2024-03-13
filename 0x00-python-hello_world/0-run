@@ -1,11 +1,2 @@
 #!/usr/bin/python3
-
-if [ -z "$PYFILE" ]; then
-echo "Variable not set"
-exit 1
-fi
-if [ ! - f "$PYFILE" ]; then
-echo "The specified file does not exist or not regular"
-exit 1
-fi
 python "$PYFILE"
