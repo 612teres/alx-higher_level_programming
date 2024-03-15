@@ -10,4 +10,4 @@ for i in range(0, 9):
 
 else:
 
-    print("{}{}".format(i, j) end=", ")
+    print("{}{}".format(i, j), end=", ")
