@@ -6,7 +6,7 @@ for i in range(0, 9):
 
         if i != 8 or j != 9:
 
-            print("{}{}".format(i, j))
+            print("{}{}".format(i, j), sep=", ")
 
 else:
 
