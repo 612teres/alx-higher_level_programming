@@ -1,3 +1,5 @@
 #!/usr/bin/python3
-for c in range(ord('z'), ord('a') - 1, -2):
-    print("{:c}{:s}".format(c, chr(c - 33)), end="")
+for c in reversed(range(ord('a'), ord('{"))):
+    if c % 2 == 1:
+    c -= ord(' ')
+    print("{:c}".format(c), end="")
